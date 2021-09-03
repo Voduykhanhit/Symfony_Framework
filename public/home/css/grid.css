@@ -1,0 +1,33 @@
+
+
+
+
+@media (max-width: 739px){
+    .hidden-on-tablet{
+        display:none;
+    }
+    :root{
+        --header:68px;
+        --header__navbar:0px;
+    }
+    .l-6{
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1023px) {
+    
+}
+@media (min-width:740px) and (max-width: 1023px) {
+    :root{
+        --header:68px;
+        --header__navbar:0px;
+    }
+    .hidden-on-tablet{
+        display:none;
+    }
+    
+   
+}

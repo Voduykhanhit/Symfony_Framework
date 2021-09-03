@@ -1,0 +1,10 @@
+index:
+   path: /
+   controller: App\Controller\UserController::index
+user:
+    path: /user/name={name?}
+    controller: App\Controller\UserController::user
+home:
+  path: /trangchu
+  controller: App\Controller\UserController::home
+
